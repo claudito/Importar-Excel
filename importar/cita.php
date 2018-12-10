@@ -1,6 +1,5 @@
 <?php
-include('../librerias/PHPEXCEL/PHPExcel.php');
-include('../librerias/PHPEXCEL/PHPExcel/Reader/Excel2007.php');
+include'../vendor/autoload.php';
 include'../autoload.php';
 //cargamos el archivo al servidor con el mismo nombre
 //solo le agregue el sufijo bak_ 
