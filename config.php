@@ -7,7 +7,7 @@ define("PATH", "Importar-Excel");
 define("SERVERBD", "localhost");
 define("USERBD", "root");
 define("PASSBD", "");
-define("BD", "clinica_dental");
+define("BD", "");
 
 
  ?>

@@ -26,50 +26,29 @@ return true}
 
 <body>
 <div class="container-fluid">
+
 	<div class="row">
+
 		<div class="col-md-4">
-			<h1>Paciente</h1>
-			<hr>
-			<form name="importa" method="post" action="importar/paciente.php" enctype="multipart/form-data" onsubmit="return validar(this)">
 
-<div class="input-group">
-<input type="file" name="excel" class="form-control" required="">
-<span class="input-group-btn">
-<input type='submit' name='enviar'  value="Importar" class="btn btn-success" />
-</span>
-</div><!-- /input-group -->
-		
+			<h1>Importar</h1>
+			<hr>
+			<form name="importa" method="post" action="importar/cargar.php" enctype="multipart/form-data" onsubmit="return validar(this)">
+
+				<div class="input-group">
+				<input type="file" name="excel" class="form-control" required="">
+				<span class="input-group-btn">
+				<input type='submit' name='enviar'  value="Importar" class="btn btn-success" />
+				</span>
+				</div><!-- /input-group -->
+						
 			</form>
+			
 		</div>
 
-       <div class="col-md-4">
-			<h1>Tratamiento</h1>
-			<hr>
-			<form name="importa" method="post" action="importar/tratamiento.php" enctype="multipart/form-data" onsubmit="return validar(this)">
-		<div class="input-group">
-<input type="file" name="excel" class="form-control" required="">
-<span class="input-group-btn">
-<input type='submit' name='enviar'  value="Importar" class="btn btn-success" />
-</span>
-</div><!-- /input-group -->
-		
-			</form>
-		</div>
-      
-     <div class="col-md-4">
-			<h1>Cita</h1>
-			<hr>
-			<form name="importa" method="post" action="importar/cita.php" enctype="multipart/form-data" onsubmit="return validar(this)">
-			<div class="input-group">
-<input type="file" name="excel" class="form-control" required="">
-<span class="input-group-btn">
-<input type='submit' name='enviar'  value="Importar" class="btn btn-success" />
-</span>
-</div><!-- /input-group -->
-		
-			</form>
-		</div>
 	</div>
+
 </div>
+
 </body>
 </html>
